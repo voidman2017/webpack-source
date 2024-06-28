@@ -46,7 +46,9 @@ module.exports = [
 			// Ignore some examples files
 			"examples/**/*.js",
 			"examples/**/*.mjs",
-			"!examples/*/webpack.config.js"
+			"!examples/*/webpack.config.js",
+			"myApp-webpack4",
+			"myApp"
 		]
 	},
 	{

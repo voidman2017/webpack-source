@@ -1,12 +1,24 @@
-/******/ (() => {
-	// webpackBootstrap
-	/******/ "use strict";
-	var __webpack_exports__ = {}; // CONCATENATED MODULE: ./src/sum.js
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
 
-	function sum(a, b) {
-		return a + b;
-	} // CONCATENATED MODULE: ./src/index.js
-	console.log(sum(1, 2));
-	/******/
-})();
-//# sourceMappingURL=bundle.js.map
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: Cannot find package '@babel/preset-env' imported from /Users/princed_1/www/princed/webpack-source/babel-virtual-resolve-base.js\n    at new NodeError (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:195:5)\n    at packageResolve (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:899:9)\n    at moduleResolve (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:939:18)\n    at defaultResolve (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:1017:15)\n    at resolve (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:1030:12)\n    at tryImportMetaResolve (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/files/plugins.js:142:45)\n    at resolveStandardizedNameForImport (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/files/plugins.js:164:19)\n    at resolveStandardizedName (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/files/plugins.js:173:22)\n    at loadPreset (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/files/plugins.js:61:20)\n    at loadPreset.next (<anonymous>)\n    at createDescriptor (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/config-descriptors.js:140:16)\n    at createDescriptor.next (<anonymous>)\n    at step (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:261:32)\n    at evaluateAsync (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:291:5)\n    at /Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:44:11\n    at Array.forEach (<anonymous>)\n    at Function.async (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:43:15)\n    at Function.all (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:216:13)\n    at Generator.next (<anonymous>)\n    at createDescriptors (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/config-descriptors.js:102:41)\n    at createDescriptors.next (<anonymous>)\n    at createPresetDescriptors (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/config-descriptors.js:96:17)\n    at createPresetDescriptors.next (<anonymous>)\n    at /Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/config-descriptors.js:57:32\n    at Generator.next (<anonymous>)\n    at Function.<anonymous> (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/gensync-utils/async.js:21:3)\n    at Generator.next (<anonymous>)\n    at step (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:269:25)\n    at evaluateAsync (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:291:5)\n    at Function.errback (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:113:7)\n    at errback (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/gensync-utils/async.js:65:18)\n    at async (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:188:17)\n    at onFirstPause (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:216:13)\n    at Generator.next (<anonymous>)\n    at cachedFunction (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/caching.js:52:46)\n    at cachedFunction.next (<anonymous>)\n    at mergeChainOpts (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/config-chain.js:350:34)\n    at mergeChainOpts.next (<anonymous>)\n    at chainWalker (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/config-chain.js:316:14)\n    at chainWalker.next (<anonymous>)\n    at buildRootChain (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/config-chain.js:56:36)\n    at buildRootChain.next (<anonymous>)\n    at loadPrivatePartialConfig (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/partial.js:72:62)\n    at loadPrivatePartialConfig.next (<anonymous>)\n    at loadPartialConfig (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/@babel/core/lib/config/partial.js:115:25)\n    at loadPartialConfig.next (<anonymous>)\n    at step (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:269:25)\n    at evaluateAsync (/Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:291:5)\n    at /Users/princed_1/www/princed/webpack-source/myApp/node_modules/gensync/index.js:93:9\n    at new Promise (<anonymous>)");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./src/index.js"]();
+/******/ 	
+/******/ })()
+;

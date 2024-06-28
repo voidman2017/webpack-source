@@ -1,4 +1,5 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
 	entry: "./src/index.js",
@@ -7,8 +8,8 @@ module.exports = {
 		filename: "bundle.js",
 		path: path.resolve(__dirname, "dist")
 	},
-	mode: "production",
-	devtool: "source-map",
+	mode: "development",
+	devtool: false,
 	module: {
 		rules: [
 			{
@@ -26,5 +27,9 @@ module.exports = {
 	optimization: {
 		minimize: false // 禁用代码压缩
 	},
-	plugins: []
+	plugins: [
+		new HtmlWebpackPlugin({
+			template: "./src/index.html"
+		})
+	]
 };
