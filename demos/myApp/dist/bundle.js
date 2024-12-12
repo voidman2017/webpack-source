@@ -1,6 +1,46 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/1.js":
+/*!******************!*\
+  !*** ./src/1.js ***!
+  \******************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _2_2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./2/2.js */ "./src/2/2.js");
+/* harmony import */ var _2_2_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_2_2_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _2_3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./2/3.js */ "./src/2/3.js");
+/* harmony import */ var _2_3_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_2_3_js__WEBPACK_IMPORTED_MODULE_1__);
+console.log(1111111);
+
+
+window.aaa = 1111111;
+
+/***/ }),
+
+/***/ "./src/2/2.js":
+/*!********************!*\
+  !*** ./src/2/2.js ***!
+  \********************/
+/***/ (() => {
+
+console.log(2222222);
+window.aaa = 2222222;
+
+/***/ }),
+
+/***/ "./src/2/3.js":
+/*!********************!*\
+  !*** ./src/2/3.js ***!
+  \********************/
+/***/ (() => {
+
+console.log(3333333);
+window.aaa = 3333333;
+
+/***/ }),
 
 /***/ "./src/sum.js":
 /*!********************!*\
@@ -8,6 +48,7 @@
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   sum: () => (/* binding */ sum)
@@ -45,6 +86,18 @@ function sum(a, b) {
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -75,6 +128,9 @@ function sum(a, b) {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+(() => {
+"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
@@ -83,10 +139,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   name: () => (/* binding */ name)
 /* harmony export */ });
 /* harmony import */ var _sum_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sum.js */ "./src/sum.js");
+/* harmony import */ var _1_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./1.js */ "./src/1.js");
+
 
 console.log("index.js");
 console.log((0,_sum_js__WEBPACK_IMPORTED_MODULE_0__.sum)(1, 2));
 var name = "这是入口文件";
+})();
+
 /******/ })()
 ;
 //# sourceMappingURL=bundle.js.map

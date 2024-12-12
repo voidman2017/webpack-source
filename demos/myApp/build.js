@@ -1,4 +1,4 @@
-const webpack = require("../lib/webpack");
+const webpack = require("../../lib/webpack");
 const config = require("./webpack.config");
 
 // 执行 webpack 函数有传回调函数
@@ -12,7 +12,7 @@ compiler.run((err, stats) => {
 
 	console.log(
 		stats.toString({
-			// all: true, // 输出所有日志信息
+			all: true, // 输出所有日志信息
 			colors: true // 带颜色的输出
 		})
 	);
