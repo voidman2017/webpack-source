@@ -128,7 +128,7 @@ function sum(a, b) {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry needs to be wrapped in an IIFE because it needs to be in strict mode.
 (() => {
 "use strict";
 /*!**********************!*\
@@ -142,6 +142,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _1_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./1.js */ "./src/1.js");
 
 
+Promise.resolve(/*! import() */).then(__webpack_require__.bind(__webpack_require__, /*! ./1.js */ "./src/1.js")).then(function (module) {
+  console.log('1.js加载完成');
+});
 console.log("index.js");
 console.log((0,_sum_js__WEBPACK_IMPORTED_MODULE_0__.sum)(1, 2));
 var name = "这是入口文件";
